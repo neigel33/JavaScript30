@@ -27,6 +27,12 @@ video {
   border-radius: 50px;
   box-shadow: 0 0 1px 3px rgba(0,0,0,0.1);
   overflow: hidden;
+  border: 1px solid #000;
+  position: relative;
+  width: 100px;
+  height: 500px;
+  margin: 20px;
+  cursor: ns-resize;
 }
 
 .speed-bar {
@@ -39,4 +45,11 @@ video {
   padding: 2px;
   color: white;
   height: 16.3%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #ff0000, #ff9900);
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
 }

@@ -86,3 +86,14 @@ nav a {
   transition: all 0.2s;
   text-transform: uppercase;
 }
+
+.fixed-nav #main {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.fixed-nav .logo {
+  max-width: 200px;
+}
